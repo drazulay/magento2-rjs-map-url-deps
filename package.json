@@ -20,6 +20,10 @@
     "puppeteer": "^1.14.0",
     "requirejs": "^2.3.6"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/drazulay/magento2-rjs-map-url-deps.git"
+  },
   "author": "Daniel R. Azulay",
   "license": "MIT"
 }
