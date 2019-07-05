@@ -52,7 +52,7 @@ const getUrlDependencies = async (url, browser) => {
             });
         });
     }).catch(async reason => {
-        return reason;
+        return [reason];
     });
 };
 
@@ -69,7 +69,7 @@ const depsMap = urls => {
             return data;
         });
     }).catch(async reason => {
-        return reason;
+        return [reason];
     });
 };
 
