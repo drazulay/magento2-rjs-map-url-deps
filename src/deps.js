@@ -6,7 +6,7 @@
  * Usage:
  * ./lib.js <url>,<url>,...,<url>
  *
- * Outputs a json object:
+ * Outputs an array of objects containing url to dependency list mappings:
  *
  * [{url: "http://mysite.com", dependencies: ["a", "b", ...]}, ...]
  *
