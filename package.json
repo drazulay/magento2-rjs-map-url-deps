@@ -1,0 +1,25 @@
+{
+  "name": "magento2-rjs-map-url-deps",
+  "version": "1.0.0",
+  "description": "Map a list of non-mixin requirejs dependencies to each input url",
+  "main": "src/deps.js",
+  "scripts": {
+    "map-url-deps": "src/deps.js"
+  },
+  "keywords": [
+    "magento2",
+    "rjs",
+    "requirejs",
+    "dependencies",
+    "map"
+  ],
+  "dependencies": {
+    "aigle": "^1.13.0",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.14.0",
+    "requirejs": "^2.3.6"
+  },
+  "author": "Daniel R. Azulay",
+  "license": "MIT"
+}
