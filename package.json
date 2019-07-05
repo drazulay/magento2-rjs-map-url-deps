@@ -1,5 +1,5 @@
 {
-  "name": "magento2-rjs-map-url-deps",
+  "name": "@itonomy/magento2-rjs-map-url-deps",
   "version": "1.0.0",
   "description": "Map a list of non-mixin requirejs dependencies to each input url",
   "main": "src/deps.js",
@@ -21,9 +21,14 @@
     "requirejs": "^2.3.6"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/drazulay/magento2-rjs-map-url-deps.git"
+    "type": "git",
+    "url": "git+https://github.com/drazulay/magento2-rjs-map-url-deps.git"
   },
   "author": "Daniel R. Azulay",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drazulay/magento2-rjs-map-url-deps/issues"
+  },
+  "homepage": "https://github.com/drazulay/magento2-rjs-map-url-deps#readme",
+  "devDependencies": {}
 }
