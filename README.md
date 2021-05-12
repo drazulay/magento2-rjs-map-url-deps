@@ -1,6 +1,13 @@
 # Magento2 RequireJS Url Dependency Mapper
 
+```diff
+-- This code has spent a long time wasting away in obsolesence, so I've archived it. RIP.
+```
+
 Map a list of non-mixin requirejs dependencies to each input url.
+
+import { Component } from '@angular/core';
+import { MovieService } from './services/movie.service';
 
 ## Examples
 
